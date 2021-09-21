@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&family=Staatliches&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.navbar-padding {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 0 10px;
+}
+
+.black {
+  background-color: black;
+}
+
+.custom-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  word-spacing: -5px;
+  color: white;
+  font-weight: 800;
+}
+
+.underline-hover {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+}
+
+.underline-hover:hover {
+  text-decoration-color: #fff;
+}
+
+.contact-btn {
+  text-shadow: 1px 1px 1px white;
+  font-weight: 900;
+  margin-right: 15px;
+}
+
+.contact-btn a {
+  color: black;
+}
+
+/* MAIN */
+.top {
+  width: 100vw;
+  height: 70vh;
+  margin-top: 5vh;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  background-color: #282c35;
+}
+
+.top-container {
+  display: flex;
+}
+
+.service-container {
+  height: auto;
+  width: 50%;
+  background-color: white;
+  margin: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.service-item {
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+  border-bottom: solid 3px #282c35;
+}
+
+.l1 {
+  font-family: "Righteous", cursive;
+  font-size: 35px;
+  text-decoration: underline;
+  color: white;
+}
+
+.l2 {
+  font-family: "Staatliches", cursive;
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-left: 6vw;
+  word-spacing: 5px;
+}
+
+.tag-line {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+/* SERVICES WE PROVIDE */
+.services {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.services-heading {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  padding: 15px;
+  font-weight: 700;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.srv-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  height: 98%;
+  width: 98%;
+  padding: 25px;
+}
+
+.indv-srv {
+  height: 25vh;
+  width: 28vw;
+  margin: 15px 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  padding: 20px;
+}
+
+.srv-head {
+  border-radius: 20px;
+  background-color: white;
+  height: 100%;
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* .srv-desc {
+  font-size: 18px;
+  font-family: "Merienda", cursive;
+  font-weight: 500;
+  padding: 20px;
+} */
+/* OUR CUSTOMERS */
+.our-clients {
+  padding: 15px;
+  width: 100vw;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtext {
+  font-family: "Bitter", serif;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-right: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.client-logo {
+  height: 20vh;
+  width: 18vw;
+  margin: 2px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-icon {
+  font-size: 80px;
+  color: black;
+}
+
+.logo-cl {
+  filter: grayscale(100%);
+  height: 60%;
+  width: 80%;
+}
+
+/* GET IN TOUCH */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: auto;
+  margin: 15vh 2vw;
+  margin-right: 20vw;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.btn-container h1 {
+  font-family: "Righteous", cursive;
+  font-size: 45px;
+  padding: 10px;
+}
+
+.get-in-touch-btn {
+  font-family: "Staatliches", cursive;
+  background-color: #ff4c4c;
+  outline: none;
+  border: 0;
+  padding: 15px 20px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.cc-btn {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  word-spacing: 6px;
+}
+.get-in-touch-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* ABOUT US */
+.about-us {
+  width: 100vw;
+  height: 60vh;
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-us-container {
+  border-radius: 2px;
+  height: 100%;
+  width: 55%;
+  background-color: #fff;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin-left: -15px;
+  overflow: hidden;
+  margin-right: 1vw;
+}
+
+.inner-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  height: 100%;
+  width: 100%;
+  padding: 2vh;
+  font-size: 18px;
+}
+.abt-us-text {
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  background-color: black;
+  margin-left: 15px;
+}
+
+.abt-p {
+  font-family: monospace;
+  color: white;
+}
+
+.cnct {
+  background-color: #fff;
+  color: black;
+  letter-spacing: 1.5px;
+}
+
+.cc {
+  display: flex;
+}
+
+.cc p {
+  font-size: 18px;
+}
+.cc i {
+  margin-top: 19px;
+  margin-right: 15px;
+  font-size: 30px;
+}
+
+.contact-us-container {
+  display: flex;
+  overflow: hidden;
+  border-radius: 2px;
+  height: 100%;
+  width: 35%;
+  background-color: black;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.inner-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 2.5vh;
+  margin-right: 1vw;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  text-align: center;
+  height: 10vh;
+  padding: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-name {
+  color: #f4f4f4;
+  font-size: 18px;
+}
